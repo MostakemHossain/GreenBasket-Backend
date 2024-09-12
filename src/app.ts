@@ -1,5 +1,5 @@
-import express, { Request, Response } from "express";
 import cors from "cors";
+import express, { Request, Response } from "express";
 import router from "./app/routes";
 
 // express
@@ -13,7 +13,7 @@ app.use(cors());
 app.use("/api/v1", router);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World!");
+  res.send("Green Basket API");
 });
 
 export default app;
