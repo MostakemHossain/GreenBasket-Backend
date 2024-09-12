@@ -14,4 +14,7 @@ export default {
   reset_password_token: process.env.RESET_PASSWORD_TOKEN,
   reset_password_expire_in: process.env.RESET_PASSWORD_TOKEN_EXPIRE_IN,
   reset_password_link: process.env.RESET_PASSWORD_LINK,
+  cloudinary_cloud_name: process.env.CLOUD_NAME,
+  cloudinary_api_key: process.env.API_KEY,
+  cloudinary_api_serect: process.env.API_SECRET,
 };
