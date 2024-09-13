@@ -11,6 +11,9 @@ const userSchema = new Schema<TUser>({
     required: [true, "Role is required"],
     default: "user",
   },
+  profilePhoto: {
+    type: String,
+  },
   isDeleted: { type: Boolean, default: false },
 });
 
